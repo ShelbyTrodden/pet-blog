@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(1, 1, 54);
+  color: antiquewhite;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1{
+text-shadow: 3px 3px 3px black;
+text-decoration: underline;
+color: antiquewhite;
+
+}
+
+h2{
+color: antiquewhite;
+text-shadow: 2px 2px 2px black;
+}
+
+h3{
+  color: antiquewhite;
+  text-shadow: 2px 2px 2px black;
+}
+img {
+  height: 400px;
+  width: auto;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear:both;
+}
